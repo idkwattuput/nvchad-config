@@ -19,7 +19,7 @@ M.nvdash = {
 }
 
 M.cheatsheet = {
-  theme = "grid",
+  theme = "simple",
 }
 
 return M
