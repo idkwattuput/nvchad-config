@@ -9,6 +9,7 @@ local options = {
     tsx = { "prettier" },
     c = { "clang_format" },
     cpp = { "clang_format" },
+    go = { "gofumpt", "goimports-reviser", "golines" },
   },
 
   format_on_save = {
