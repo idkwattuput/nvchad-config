@@ -7,6 +7,8 @@ local options = {
     typescript = { "prettier" },
     jsx = { "prettier" },
     tsx = { "prettier" },
+    c = { "clang_format" },
+    cpp = { "clang_format" },
   },
 
   format_on_save = {
