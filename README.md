@@ -1,9 +1,29 @@
-**This repo is supposed to used as config by NvChad users!**
+# NvChad Configuration
+Here is some available **lsp** and **formatter** in this configuration:
+- Lua
+- CSS
+- HTML
+- Javascript / Typescript
+- Jsx / Tsx
+- C
+- C++
+- Go
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+For any **lsp** or **formatter** changes, please go through:
+- /lua/configs/conform.lua
+- /lua/configs/lspconfig.lua
+- /lua/plugins/init.lua
 
-# Credits
+## Installation
 
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+Install the configuration and lauch neovim
+
+```bash
+  git clone git@github.com:idkwattuput/nvchad-config.git ~/.config/nvim && nvim
+```
+
+Install Mason
+```bash
+    :MasonInstallAll
+```
+    
